@@ -1,0 +1,141 @@
+{
+  "books": [
+    {
+      "id": 9,
+      "title": "le prince",
+      "author": "eee",
+      "categorieId": 4,
+      "price": "25",
+      "isAvailable": "Yes",
+      "rating": "1",
+      "warranty": "1",
+      "bookImg": "http://localhost:4200/assets/4.jpg",
+      "bookDescription": "rfffffffffffffffffffffffffffffffff"
+    },
+    {
+      "id": 10,
+      "title": "aaaaaaaaaaaaaaaa",
+      "author": "Amir khan",
+      "categorieId": 5,
+      "price": "30",
+      "isAvailable": "Yes",
+      "rating": "3",
+      "warranty": "2",
+      "bookImg": "http://localhost:4200/assets/1.jpg",
+      "description": "plkgxdwkkpoihtsttfgijjijgugfydd"
+    },
+    {
+      "id": 20,
+      "title": "le prince",
+      "author": "Amir khan",
+      "categorieId": 5,
+      "price": "30",
+      "isAvailable": "Yes",
+      "rating": "2",
+      "warranty": "2",
+      "bookImg": "http://localhost:4200/assets/2.jpg"
+    },
+    {
+      "id": 21,
+      "title": "le prince",
+      "author": "eee",
+      "categorieId": 5,
+      "price": "18.5",
+      "isAvailable": true,
+      "rating": "3",
+      "warranty": "3",
+      "bookImg": "http://localhost:4200/assets/5.jpg",
+      "description": "zerazerzerzaerzeazer"
+    },
+    {
+      "id": 22,
+      "title": "le prince",
+      "author": "Amir khan",
+      "categorieId": 5,
+      "price": "25",
+      "isAvailable": true,
+      "rating": "2",
+      "warranty": "3",
+      "bookImg": "http://localhost:4200/assets/9.jpg",
+      "description": "azeazeazeazeazeazeazeaze"
+    },
+    {
+      "id": 23,
+      "title": "le prince",
+      "author": "Amir khan",
+      "categorieId": 5,
+      "price": "18.5",
+      "isAvailable": true,
+      "rating": "2",
+      "warranty": "3",
+      "bookImg": "http://localhost:4200/assets/8.jpg",
+      "description": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "id": 24,
+      "title": "le prince",
+      "author": "Aziz",
+      "categorieId": 5,
+      "price": "25",
+      "isAvailable": true,
+      "rating": "2",
+      "warranty": "2",
+      "bookImg": "C:\\fakepath\\50685975_1194796644003165_8663303546927579136_o.jpg",
+      "description": "ce livre parle d'une aventure"
+    },
+    {
+      "id": 25,
+      "title": "Enter azBook Title",
+      "author": "Amir khan",
+      "categorieId": 1,
+      "price": "30",
+      "isAvailable": true,
+      "rating": "2",
+      "warranty": "2",
+      "bookImg": "",
+      "description": "aziz aziaz aziaz "
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "brahim",
+      "familyname": "smaoui",
+      "username": "smaouix",
+      "email": "brahim.smaoui@esprit.tn"
+    },
+    {
+      "id": 1,
+      "name": "ahmed",
+      "familyname": "attia",
+      "username": "ajeja",
+      "email": "ahmed.attia@esprit.tn"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Roman"
+    },
+    {
+      "id": 2,
+      "categoryName": "Comic Books"
+    },
+    {
+      "id": 3,
+      "categoryName": "Caricature"
+    },
+    {
+      "id": 4,
+      "categoryName": "Action / Adventure"
+    },
+    {
+      "id": 5,
+      "categoryName": "Classics"
+    },
+    {
+      "id": 6,
+      "categoryName": "Novels"
+    }
+  ]
+}

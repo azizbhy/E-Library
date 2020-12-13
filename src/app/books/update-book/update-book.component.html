@@ -1,0 +1,82 @@
+<h2 class="bg-light mb-2">Update Book</h2>
+  <form  (submit)="updateBook(updateBookForm)" #updateBookForm="ngForm" >
+    <div class="form-row">
+    
+      <div class="col-md-6 mb-3">
+        <label for="validationServer02">Book Title</label>
+        <input type="text" class="form-control" required name="title" [(ngModel)]="booksList.title"  ngModel>
+      </div>
+
+      <div class="col-md-6 mb-3">
+        <label for="validationServer02">Book Author</label>
+        <input type="text" class="form-control" required [(ngModel)]="booksList.author" name="author" ngModel>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationServer02">Book Category</label>
+        <input type="number" required [(ngModel)]="booksList.categorieId" name="categorieId" ngModel>
+      </div>
+ 
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationServer03">Description</label>
+        <textarea type="text" class="form-control" placeholder="Enter Book Description" required [(ngModel)]="booksList.description" name="description" ngModel >
+        </textarea>
+      </div>
+
+      <div class="col-md-6 mb-3">
+        <label>Rating</label>
+        <select class="custom-select" required [(ngModel)]="booksList.rating"  name="rating" ngModel>
+          <option selected value="">Choose...</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label>Book Warranty</label>
+        <select class="custom-select" required [(ngModel)]="booksList.warranty"  name="warranty" ngModel>
+          <option selected value="">Choose...</option>
+          <option value="1">1 Month</option>
+          <option value="2">3 Months</option>
+          <option value="3">5 Months</option>
+          <option value="4">7 Months</option>
+          <option value="5">1 Year</option>
+        </select>
+      </div>
+   
+        <div class="col-md-6 mb-3">
+          <label for="validationServer02">Is Avaiable</label>
+          <select class="custom-select" required  [(ngModel)]="booksList.isAvailable" name="isAvailable" ngModel >
+            <option selected value="">Choose...</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationServer01">Book Price</label>
+          <input type="text" class="form-control"   required [(ngModel)]="booksList.price" name="price" ngModel>
+        </div>
+      </div>
+    <button class="btn btn-primary" type="submit">Update Book</button>
+  </form>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+<div class="card mt-4">
+    <img class="card-img-top img-fluid" src="{assets/1.jpg}" alt="" width="300" height="300">
+    <div class="card-body">
+  
+      <h3 class="card-title">Book Title : {{ booksList.title }}</h3>
+      <h1>{{booksList.id}}</h1>
+      
+
+      <h5>{{ booksList.author }}</h5>
+      <h4>${{ booksList.price }}</h4>
+      <h5>{{ booksList.isAvailable }}</h5>
+      <p class="card-text">{{ booksList.description }}</p>
+      <span class="text-warning">{{ booksList.rating }}</span>
+      stars<br>
+
+    </div>
+    <a href="books/update-book/{{booksList.id}}" class="btn btn-secondary" id="btn1">Update Book</a><br>
+    <a href="books/delete-book/{{booksList.id}}" class="btn btn-danger" id="btn2">Delete Book</a>
+    
+  </div>
+  <!-- /.card -->
+
+  <div class="card card-outline-secondary my-4">
+    <div class="card-header">
+      Product Reviews
+    </div>
+    <div class="card-body">
+      <p> </p>
+      <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+      <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+      <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+      <hr>
+      <a href="#" class="btn btn-success">Leave a Review</a>
+    </div>
+  </div>
+  <!-- /.card -->

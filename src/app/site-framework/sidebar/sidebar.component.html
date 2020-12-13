@@ -1,0 +1,11 @@
+<h1 class="my-4">Shop4Less</h1>
+<a href="books" class="list-group-item" style="background-color: aquamarine;">
+  View All Products 
+</a>
+       
+<div class="list-group" *ngFor="let cat of categoryList">
+          <a href="books/view-book-category/{{cat.id}}" class="list-group-item" >
+            {{cat.categoryName}}
+          </a>
+        </div>
+
